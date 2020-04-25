@@ -1,5 +1,6 @@
 library(shiny)
 bcl <- read.csv("bcl-data.csv", stringsAsFactors = FALSE)
+print("aha")
 
 ui <- fluidPage(
   titlePanel("BC Liquor Store prices"),
